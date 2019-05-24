@@ -1,4 +1,5 @@
 import os
+import time
 
 # start removing the unneeded files
 os.remove('./public/favicon.ico')
@@ -40,3 +41,4 @@ with open('./src/index.js', 'w') as outfile:
             outfile.write(line)
 
 print('Your project is now clean and ready to go, \nEnjoy!')
+time.sleep(3)
